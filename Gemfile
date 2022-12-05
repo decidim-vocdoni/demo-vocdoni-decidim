@@ -12,6 +12,7 @@ gem "decidim", DECIDIM_VERSION
 # gem "decidim-elections", DECIDIM_VERSION
 # gem "decidim-initiatives", DECIDIM_VERSION
 # gem "decidim-templates", DECIDIM_VERSION
+gem "decidim-vocdoni", github: "andreslucena/decidim-module-vocdoni", branch: "feature/elections"
 
 gem "bootsnap", "~> 1.3"
 

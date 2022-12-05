@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/andreslucena/decidim-module-vocdoni.git
+  revision: 7b3aadf16585db51b660f04206c44adb4b9b0db3
+  branch: feature/elections
+  specs:
+    decidim-vocdoni (0.27.0)
+      decidim-core (= 0.27.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -787,6 +795,7 @@ DEPENDENCIES
   byebug (~> 11.0)
   decidim (= 0.27.0)
   decidim-dev (= 0.27.0)
+  decidim-vocdoni!
   faker (~> 2.14)
   letter_opener_web (~> 2.0)
   listen (~> 3.1)

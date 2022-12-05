@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_12_05_161330) do
+ActiveRecord::Schema.define(version: 2022_12_05_162652) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "ltree"
@@ -1586,6 +1586,21 @@ ActiveRecord::Schema.define(version: 2022_12_05_161330) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["decidim_organization_id"], name: "index_verifications_csv_census_to_organization"
+  end
+
+  create_table "decidim_vocdoni_elections", force: :cascade do |t|
+    t.jsonb "title"
+    t.jsonb "description"
+    t.string "stream_uri"
+    t.datetime "start_time"
+    t.datetime "end_time"
+    t.datetime "published_at"
+    t.datetime "blocked_at"
+    t.string "status"
+    t.bigint "decidim_component_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["decidim_component_id"], name: "index_decidim_vocdoni_elections_on_decidim_component_id"
   end
 
   create_table "oauth_access_grants", force: :cascade do |t|

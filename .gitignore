@@ -34,3 +34,9 @@
 
 # Ignore public uploads
 public/uploads
+
+# Ignore NPM and webpack files
+node_modules/
+public/decidim-packs/
+public/sw.js
+public/sw.js.map

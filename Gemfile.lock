@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/andreslucena/decidim-module-vocdoni.git
-  revision: 7b3aadf16585db51b660f04206c44adb4b9b0db3
+  revision: 31c951ef8c5c9447805d8836ca364054c3cb7b5b
   branch: feature/elections
   specs:
     decidim-vocdoni (0.27.0)
@@ -507,7 +507,7 @@ GEM
     mime-types (3.4.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2022.0105)
-    mini_magick (4.11.0)
+    mini_magick (4.12.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
     mixlib-cli (2.1.8)

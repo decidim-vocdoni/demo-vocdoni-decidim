@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/andreslucena/decidim-module-vocdoni.git
-  revision: 31c951ef8c5c9447805d8836ca364054c3cb7b5b
+  revision: 30a2ce45480566f2a35ed1a04d698ef674bb88a0
   branch: feature/elections
   specs:
     decidim-vocdoni (0.27.0)

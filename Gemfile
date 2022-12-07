@@ -46,4 +46,5 @@ group :development do
 end
 
 group :production do
+  gem "passenger", "~> 6.0"
 end

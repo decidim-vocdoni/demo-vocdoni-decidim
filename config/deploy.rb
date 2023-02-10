@@ -5,7 +5,7 @@ set :repo_url, ENV.fetch("DEPLOY_REPO_URL")
 set :branch, ENV.fetch("DEPLOY_BRANCH", "main")
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 set :deploy_to, "/var/www/vocdoni.demo.decidim.org"
-append :linked_files, "config/database.yml", 'config/master.key'
+append :linked_files, "config/database.yml", 'config/master.key', '.rbenv-vars'
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "tmp/webpacker", "public/system", "vendor", "storage", "node_modules"
 
 set :rbenv_type, :user

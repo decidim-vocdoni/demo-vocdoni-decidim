@@ -15,11 +15,10 @@ gem "decidim", DECIDIM_VERSION
 gem "decidim-vocdoni", github: "decidim-vocdoni/decidim-module-vocdoni", branch: "feature/voting-booth"
 
 gem "bootsnap", "~> 1.3"
-
-gem "puma", ">= 5.0.0"
-
 gem "faker", "~> 2.14"
-
+gem "puma", ">= 5.0.0"
+gem "sentry-rails", "~> 5.8"
+gem "sentry-ruby", "~> 5.8"
 gem "wicked_pdf", "~> 2.1"
 
 group :development, :test do

@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-DECIDIM_VERSION = "0.27.0"
+DECIDIM_VERSION = "0.27.1"
 
 gem "decidim", DECIDIM_VERSION
 # gem "decidim-conferences", DECIDIM_VERSION
@@ -12,7 +12,7 @@ gem "decidim", DECIDIM_VERSION
 # gem "decidim-elections", DECIDIM_VERSION
 # gem "decidim-initiatives", DECIDIM_VERSION
 # gem "decidim-templates", DECIDIM_VERSION
-gem "decidim-vocdoni", github: "andreslucena/decidim-module-vocdoni", branch: "feature/elections"
+gem "decidim-vocdoni", github: "decidim-vocdoni/decidim-module-vocdoni", branch: "feature/voting-booth"
 
 gem "bootsnap", "~> 1.3"
 

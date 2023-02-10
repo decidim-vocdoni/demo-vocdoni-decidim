@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/decidim-vocdoni/decidim-module-vocdoni.git
-  revision: 987bfde56947359a3ade7d4638fd73356938ae48
+  revision: 032bd9a49a5310c56a0fb7cfa81979ac72127839
   branch: feature/voting-booth
   specs:
     decidim-vocdoni (0.27.1)

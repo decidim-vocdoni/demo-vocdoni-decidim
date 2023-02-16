@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/decidim-vocdoni/decidim-module-vocdoni.git
-  revision: 032bd9a49a5310c56a0fb7cfa81979ac72127839
-  branch: feature/voting-booth
+  revision: 804f2905f0c91b9328e31d061e7909bdc15ed626
+  branch: fix/census-upload-flow
   specs:
     decidim-vocdoni (0.27.1)
       decidim-core (= 0.27.1)
@@ -355,7 +355,7 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
-    devise-i18n (1.10.2)
+    devise-i18n (1.10.3)
       devise (>= 4.8.0)
     devise_invitable (2.0.7)
       actionmailer (>= 5.0)
@@ -768,7 +768,7 @@ GEM
     thor (1.2.1)
     thread_safe (0.3.6)
     tilt (2.0.11)
-    timeout (0.3.1)
+    timeout (0.3.2)
     tomlrb (2.0.3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)

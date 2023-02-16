@@ -5,6 +5,7 @@ source "https://rubygems.org"
 ruby RUBY_VERSION
 
 DECIDIM_VERSION = "0.27.1"
+BRANCH = "fix/census-upload-flow"
 
 gem "decidim", DECIDIM_VERSION
 # gem "decidim-conferences", DECIDIM_VERSION
@@ -12,7 +13,7 @@ gem "decidim", DECIDIM_VERSION
 # gem "decidim-elections", DECIDIM_VERSION
 # gem "decidim-initiatives", DECIDIM_VERSION
 # gem "decidim-templates", DECIDIM_VERSION
-gem "decidim-vocdoni", github: "decidim-vocdoni/decidim-module-vocdoni", branch: "feature/voting-booth"
+gem "decidim-vocdoni", github: "decidim-vocdoni/decidim-module-vocdoni", branch: BRANCH
 
 gem "bootsnap", "~> 1.3"
 gem "faker", "~> 2.14"

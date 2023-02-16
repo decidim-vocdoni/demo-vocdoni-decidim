@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_02_10_093839) do
+ActiveRecord::Schema.define(version: 2023_02_16_124048) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "ltree"
@@ -1595,6 +1595,7 @@ ActiveRecord::Schema.define(version: 2023_02_10_093839) do
     t.integer "weight"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "votes"
     t.index ["decidim_vocdoni_question_id"], name: "index_decidim_vocdoni_answers_on_decidim_vocdoni_question_id"
   end
 

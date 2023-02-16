@@ -14,7 +14,7 @@
     "@decidim/dev": "^0.27.1",
     "@decidim/eslint-config": "^0.27.1",
     "@decidim/stylelint-config": "^0.27.1",
-    "jest": "^29.4.2"
+    "jest": "^29.4.3"
   },
   "browserslist": [
     "extends @decidim/browserslist-config"

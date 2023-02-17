@@ -11,13 +11,13 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "tmp/webpack
 set :rbenv_type, :user
 set :rbenv_ruby, File.read('.ruby-version').strip
 
-before "deploy:assets:precompile", "deploy:yarn_install"
+before "deploy:assets:precompile", "deploy:npm_install"
 namespace :deploy do
-  desc "Run rake yarn install"
-  task :yarn_install do
+  desc "Run npm install"
+  task :npm_install do
     on roles(:web) do
       within release_path do
-        execute("cd #{release_path} && yarn install --silent --no-progress --no-audit --no-optional")
+        execute("cd #{release_path} && npm install")
       end
     end
   end

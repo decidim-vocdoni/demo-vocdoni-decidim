@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/decidim-vocdoni/decidim-module-vocdoni.git
-  revision: 2d298fc78269eaeecbc7903149594a1dc3545664
+  revision: 501d6999cd7067da9ea463bec7f4cdec728dd5ae
   branch: feature/grant-compliance
   specs:
     decidim-vocdoni (0.27.1)
@@ -349,7 +349,7 @@ GEM
     declarative-option (0.1.0)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
-    devise (4.8.1)
+    devise (4.9.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0)

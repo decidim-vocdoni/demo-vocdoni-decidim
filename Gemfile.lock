@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/decidim-vocdoni/decidim-module-vocdoni.git
-  revision: 804f2905f0c91b9328e31d061e7909bdc15ed626
-  branch: fix/census-upload-flow
+  revision: 2d298fc78269eaeecbc7903149594a1dc3545664
+  branch: feature/grant-compliance
   specs:
     decidim-vocdoni (0.27.1)
       decidim-core (= 0.27.1)

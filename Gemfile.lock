@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/decidim-vocdoni/decidim-module-vocdoni.git
-  revision: 501d6999cd7067da9ea463bec7f4cdec728dd5ae
+  revision: 2fb977b590166789deae6956fe9e9280b20f100a
   branch: feature/grant-compliance
   specs:
     decidim-vocdoni (0.27.1)

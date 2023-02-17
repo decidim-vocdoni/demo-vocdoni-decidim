@@ -1,7 +1,7 @@
 lock "~> 3.17.1"
 
 set :application, "demo-vocdoni-decidim"
-set :repo_url, ENV.fetch("DEPLOY_REPO_URL")
+set :repo_url, "https://github.com/decidim-vocdoni/demo-vocdoni-decidim.git"
 set :branch, ENV.fetch("DEPLOY_BRANCH", "main")
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 set :deploy_to, "/var/www/vocdoni.demo.decidim.org"

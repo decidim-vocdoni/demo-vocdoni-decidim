@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_02_16_124048) do
+ActiveRecord::Schema.define(version: 2023_02_19_230519) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "ltree"
@@ -1612,6 +1612,7 @@ ActiveRecord::Schema.define(version: 2023_02_16_124048) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.string "vocdoni_election_id"
+    t.jsonb "election_type", default: {}
     t.index ["decidim_component_id"], name: "index_decidim_vocdoni_elections_on_decidim_component_id"
   end
 

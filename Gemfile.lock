@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/decidim-vocdoni/decidim-module-vocdoni.git
-  revision: b0b1e22cff8713bcb5e00a9032e0735ae8fa3c62
+  revision: ac72a42ca49fc361c3d111dd5c1f2d82d42c9de1
   branch: feature/interruptible
   specs:
     decidim-vocdoni (0.27.1)

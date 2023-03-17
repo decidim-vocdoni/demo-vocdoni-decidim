@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_03_07_142940) do
+ActiveRecord::Schema.define(version: 2023_03_17_100503) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "ltree"
@@ -1629,11 +1629,11 @@ ActiveRecord::Schema.define(version: 2023_03_07_142940) do
 
   create_table "decidim_vocdoni_voters", force: :cascade do |t|
     t.string "email"
-    t.date "born_at"
     t.string "wallet_address"
     t.bigint "decidim_vocdoni_election_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "token"
     t.index ["decidim_vocdoni_election_id"], name: "index_decidim_vocdoni_voters_on_decidim_vocdoni_election_id"
   end
 

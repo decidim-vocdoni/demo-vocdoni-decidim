@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/decidim-vocdoni/decidim-module-vocdoni.git
-  revision: ef7fdeea5b71db67f5e591fdedd3e3a0cd6d1d8d
+  revision: 38f9665b5e08155068e829fab19c5c81adc980c9
   branch: feature/census-token
   specs:
     decidim-vocdoni (0.27.1)
